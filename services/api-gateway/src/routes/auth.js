@@ -262,7 +262,7 @@ router.get('/demo-token', async (req, res) => {
     });
 
   } catch (error) {
-    console.error('❌ Demo token error:', error);
+    console.error('Demo token error:', error);
     res.status(500).json({ error: 'Failed to generate demo token' });
   }
 });
